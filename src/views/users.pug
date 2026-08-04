@@ -1,0 +1,10 @@
+extends layout 
+
+block content
+  h1= title
+  p Welcome #{user.name}
+
+  h2 Users List
+  ul#users
+    each user in users
+        li= user.name
