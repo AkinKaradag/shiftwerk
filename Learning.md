@@ -1,0 +1,4 @@
+- Write always down, what is not in your scope yet
+- Don't write somehting in the ReadMe what doesn't work now. 
+- TDD tests behavior - anything that can be wrong, so I have to ask 'is there behavior here that could break, and would a test catch a real bug?'
+    - so when you have required fields, enum on roles, defaults, formats, unique, pre-save hooks -> that's all behavior.
